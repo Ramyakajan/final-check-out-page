@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicine Order Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Family Care Online Medicine Store</h1>
+    <p>Order medicines with ease and have them delivered to your doorstep.</p>
+  </header>
+
+  <!-- Slider starts -->
+<div id="slider">
+  <div class="slides">
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Pharmacy Prescription Services</h1>
+          <h2>Pharmacies Fill Prescriptions For Medications, Ensuring The Correct Dosage And Providing Information On How To Take Them.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./Images/image 1.jpg">
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Vaccine Administration</h1>
+          <h2>Pharmacists Administer Vaccines For Flu, Shingles, Pneumonia, And Other Preventable Diseases.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./Images/Image 2.jpeg">
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1> Reviewing Medication Profiles</h1>
+          <h2>Pharmacists Review Patient Medication Profiles To Identify Potential Drug Interactions Or Contraindications.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./Images/Image 3.jpeg">
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Personalized Medication Advice</h1>
+          <h2>Pharmacists Provide Personalized Advice On Medication Regimens And Adherence Strategies.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./Images/Image 4.jpeg">
+      </div>
+    </div>
+  </div>
+  <div class="switch">
+    <ul>
+      <li>
+        <div class="on"></div>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</div>
+ <!-- Slider Ends -->
+
+  <main>
+    <!-- Analgesics Row -->
+    <section id="medicine-selection">
+      <h2>Analgesics</h2>
+      <div class="medicine-grid">
+        <div class="medicine-card">
+          <img src="./Images/Paracetamol.jpg" alt="Paracetamol" class="medicine-image">
+          <h3>Paracetamol</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Paracetamol" data-price="5" value="0" class="quantity-input">
+      </div>
+      
+        <div class="medicine-card">
+          <img src="./Images/Acetaminophen.webp" alt="Acetaminophen" class="medicine-image">
+          <h3>Acetaminophen</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Acetaminophen" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Codeine.webp" alt="Codeine" class="medicine-image">
+          <h3>Codeine</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Codeine" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Fentanyl.jpg" alt="Fentanyl" class="medicine-image">
+          <h3>Fentanyl</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Fentanyl" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Methadone.jpg" alt="Methadone" class="medicine-image">
+          <h3>Methadone</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Methadone" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Amoxicillin.png" alt="Amoxicillin" class="medicine-image">
+          <h3>Amoxicillin</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Amoxicillin" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Oxycodone.jpg" alt="Oxycodone" class="medicine-image">
+          <h3>Oxycodone</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Oxycodone" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Ibuprofen.webp" alt="Ibuprofen" class="medicine-image">
+          <h3>Ibuprofen</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Ibuprofen" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Morphine.jpg" alt="Morphine" class="medicine-image">
+          <h3>Morphine </h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Morphine" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Diclofenac.webp" alt="Diclofenac" class="medicine-image">
+          <h3>Diclofenac</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Diclofenac" data-price="10" value="0" class="quantity-input">
+        </div>
+      </div>
+    </section>
+
+
+<!-- Antibiotics Row -->
+    <section id="medicine-selection">
+      <h2>Antibiotics</h2>
+      <div class="medicine-grid">
+        <div class="medicine-card">
+          <img src="./Images/Penicillin.jpeg" alt="Penicillin" class="medicine-image">
+          <h3>Penicillin</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Penicillin" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Azithromycin.jpg" alt="Azithromycin" class="medicine-image">
+          <h3>Azithromycin</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Azithromycin" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Ciprofloxacin.jpeg" alt="Ciprofloxacin" class="medicine-image">
+          <h3>Ciprofloxacin</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Ciprofloxacin" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Doxycycline.webp" alt="Doxycycline" class="medicine-image">
+          <h3>Doxycycline</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Doxycycline" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Metronidazole.webp" alt="Metronidazole" class="medicine-image">
+          <h3>Metronidazole</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Metronidazole" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Erythromycin.webp" alt="Erythromycin" class="medicine-image">
+          <h3>Erythromycin</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Erythromycin" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Ceftriaxone.webp" alt="Ceftriaxone" class="medicine-image">
+          <h3>Ceftriaxone</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Ceftriaxone" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Tetracycline.avif" alt="Tetracycline" class="medicine-image">
+          <h3>Tetracycline</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Tetracycline" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Vancomycin.jpg" alt="Vancomycin" class="medicine-image">
+          <h3>Vancomycin</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Vancomycin" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Clindamycin.png" alt="Clindamycin" class="medicine-image">
+          <h3>Clindamycin</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Clindamycin" data-price="10" value="0" class="quantity-input">
+        </div>
+      </div>
+    </section>
+
+ <!-- Antidepressants Row -->
+    <section id="medicine-selection">
+      <h2>Antidepressants</h2>
+      <div class="medicine-grid">
+        <div class="medicine-card">
+          <img src="./Images/Fluoxetine.webp" alt="Fluoxetine" class="medicine-image">
+          <h3>Fluoxetine</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Fluoxetine" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Sertraline.webp" alt="Sertraline" class="medicine-image">
+          <h3>Sertraline</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Sertraline" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Amitriptyline.webp" alt="Amitriptyline" class="medicine-image">
+          <h3>Amitriptyline</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Amitriptyline" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Venlafaxine.webp" alt="Venlafaxine" class="medicine-image">
+          <h3>Venlafaxine</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Venlafaxine" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Mirtazapine.jpg" alt="Mirtazapine" class="medicine-image">
+          <h3>Mirtazapine </h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Mirtazapine" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Duloxetine.webp" alt="Duloxetine" class="medicine-image">
+          <h3>Duloxetine</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Duloxetine" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Bupropion.avif" alt="Bupropion" class="medicine-image">
+          <h3>Bupropion</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Bupropion" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Paroxetine.jpg" alt="Paroxetine" class="medicine-image">
+          <h3>Paroxetine</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Paroxetine" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Escitalopram.jpg" alt="Escitalopram" class="medicine-image">
+          <h3>Escitalopram</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Escitalopram" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Tadalafil.jpg" alt="Tadalafil" class="medicine-image">
+          <h3>Tadalafil</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Tadalafil" data-price="10" value="0" class="quantity-input">
+        </div>
+      </div>
+    </section>
+
+ <!-- Antihistamines Row -->
+    <section id="medicine-selection">
+      <h2>Antihistamines</h2>
+      <div class="medicine-grid">
+        <div class="medicine-card">
+          <img src="./Images/Loratadine.webp" alt="Loratadine" class="medicine-image">
+          <h3>Loratadine </h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Loratadine" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Cetirizine.jpg" alt="Cetirizine" class="medicine-image">
+          <h3>Cetirizine</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Cetirizine" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Clarinex.jpg" alt="Clarinex" class="medicine-image">
+          <h3>Clarinex</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Clarinex" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Fexofenadine.jpg" alt="Fexofenadine" class="medicine-image">
+          <h3>Fexofenadine</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Fexofenadine" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Desloratadine.webp" alt="Desloratadine" class="medicine-image">
+          <h3>Desloratadine</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Desloratadine" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Ranitidine.webp" alt="Ranitidine" class="medicine-image">
+          <h3>Ranitidine</h3>
+          <p>$10 each</p>
+          <input type="number" min="0" data-name="Ranitidine" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Promethazine.webp" alt="Promethazine" class="medicine-image">
+          <h3>Promethazine</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Promethazine" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Allegra.avif" alt="Allegra" class="medicine-image">
+          <h3>Allegra</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Allegra" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Clemastine.webp" alt="Clemastine" class="medicine-image">
+          <h3>Clemastine</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Clemastine" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Pheniramine.webp" alt="Pheniramine" class="medicine-image">
+          <h3>Pheniramine</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Pheniramine" data-price="10" value="0" class="quantity-input">
+        </div>
+      </div>
+    </section>
+
+        <!-- Antihypertensives Row -->
+    <section id="medicine-selection">
+      <h2>Antihypertensives</h2>
+      <div class="medicine-grid">
+        <div class="medicine-card">
+          <img src="./Images/Amlodipine.jpeg" alt="Amlodipine" class="medicine-image">
+          <h3>Amlodipine </h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Amlodipine" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Lisinopril.webp" alt="Lisinopril" class="medicine-image">
+          <h3>Lisinopril</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Lisinopril" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Losartan.jpg" alt="Losartan" class="medicine-image">
+          <h3>Losartan</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Losartan" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Metolazone.jpeg" alt="Metolazone" class="medicine-image">
+          <h3>Metolazone</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Metolazone" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Metoprolol.jpeg" alt="Metoprolol" class="medicine-image">
+          <h3>Metoprolol</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Metoprolol" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Clonidine.jpg" alt="Clonidine" class="medicine-image">
+          <h3>Clonidine</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Clonidine" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Spironolactone.jpg" alt="Spironolactone" class="medicine-image">
+          <h3>Spironolactone</h3>
+          <p>Rs 5 each</p>
+          <input type="number" min="0" data-name="Spironolactone" data-price="5" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Diuretics.jpg" alt="Diuretics" class="medicine-image">
+          <h3>Diuretics</h3>
+          <p>Rs 8 each</p>
+          <input type="number" min="0" data-name="Diuretics" data-price="8" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Nifedipine.avif" alt="Nifedipine" class="medicine-image">
+          <h3>Nifedipine</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Nifedipine" data-price="10" value="0" class="quantity-input">
+        </div>
+        <div class="medicine-card">
+          <img src="./Images/Felodipine.webp" alt="Felodipine" class="medicine-image">
+          <h3>Felodipine</h3>
+          <p>Rs 10 each</p>
+          <input type="number" min="0" data-name="Felodipine" data-price="10" value="0" class="quantity-input">
+        </div>
+      </div>
+    </section>
+
+    <section id="order-summary">
+      <h2>Your Order Summary</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Medicine</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="order-table-body">
+
+          <!-- Items dynamically added -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="2">Total</th>
+            <th id="total-price">$0</th>
+          </tr>
+        </tfoot>
+      </table>
+      <div class="order-buttons">
+        <button id="add-to-favourites">Save as Favourite</button>
+        <button id="apply-favourites">Apply Favourites</button>
+        <button onclick="location.href='checkout.html';" class="btn">Buy Now</button>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
